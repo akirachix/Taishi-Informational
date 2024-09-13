@@ -1,5 +1,4 @@
 import type { Config } from "tailwindcss";
-
 const config: Config = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -8,12 +7,6 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      screens: {
-        'is':{'max': '550', 'min':'700'}
-      },
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

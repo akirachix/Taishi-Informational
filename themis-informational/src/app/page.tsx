@@ -6,14 +6,4 @@ export default function Home() {
 <Features/>
     </div>
   );
-import Footer from "./components/Footer";
-
-
-export default function Home(){
-  
-  return(
-    <main>
-      
-    </main>
-  )
-}
+  }
