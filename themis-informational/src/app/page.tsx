@@ -1,3 +1,4 @@
+
 import TeamSection from "./component/Teams/teams";
 
 const Home =() => {
@@ -11,3 +12,4 @@ const Home =() => {
 }
 
 export default Home;
+

@@ -8,6 +8,7 @@ const config: Config = {
   ],
   theme: {
     extend: {
+
       screens: {
         'im': {'min': '768px', 'max': '999px'},
         'nhm': {'min': '1280px'},
@@ -16,6 +17,13 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+
+      backgroundImage: {
+        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+        "gradient-conic":
+          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      },
+
       },
       fontFamily: {
         josefin: ['"Josefin Sans"', 'sans-serif'],
