@@ -1,16 +1,6 @@
-// import Image from "next/image";
-
-// export default function Home() {
-//   return (
-    
-//       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        
-        
-//       </main>
-//   );
-// }
 
 import AboutSection from './components/About/index'
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -18,4 +8,6 @@ export default function Home() {
       <AboutSection />
     </div>
   )
-}
+
+
+  }
