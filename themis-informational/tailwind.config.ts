@@ -8,9 +8,17 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        'im': {'min': '768px', 'max': '999px'},
+        'nhm': {'min': '1280px'},
+        'nh': {'min': '1000px', 'max': '1279px'},
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+      },
+      fontFamily: {
+        josefin: ['"Josefin Sans"', 'sans-serif'],
       },
     },
   },
