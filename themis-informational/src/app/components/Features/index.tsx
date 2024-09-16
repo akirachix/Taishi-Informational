@@ -17,7 +17,7 @@ export default function Features() {
       <div className="flex flex-col sm:mt-10 md:mt-10 sm:space-y-18 lg:space-y-18">
         <Feature
           title="Focus on the hearing, let Themis handle the notes!"
-          description="With Themis' real-time transcription, never miss a moment in your virtual court sessions. Accurate, fast, reliable, transforms spoken words into text instantly, ensuring every detail is documented and every voice is heard."
+          description="With Themis' real-time transcription, never miss a moment of your virtual court sessions. Accurate, fast, reliable, and transforms spoken words into text instantly, ensuring every detail is documented and every voice is heard."
           imageSrc="/Images/landing.png"
         />
 
