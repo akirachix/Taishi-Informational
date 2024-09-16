@@ -5,7 +5,7 @@ import Link from 'next/link';
 const Footer = () => {
   return (
     <footer className="bg-black text-white py-8 px-5 font-josefin">
-           <div className="container mx-[20px] flex flex-wrap justify-between items-start md:px-4">
+           <div className=" flex flex-wrap justify-between items-start mx-[33px]">
     
              <div className="w-full md:w-1/5 flex flex-col items-start mb-6 md:mb-0 ">
                <div className="rounded-full h-24 w-24 mt-[-20px] flex items-center justify-center">
