@@ -34,8 +34,7 @@ const Navbar = () => {
                             <Link
                                 href={`#${link}`}
                                 onClick={() => setActiveLink(link)}
-                                className={activeLink === link ? 'text-[#D38816]' : ''}
-                                //className={`#${hashPath}` === `#${link}` ? 'text-[#D38816]' : ''}
+                                className={activeLink === link ? 'text-[#D38816] ' : ''}
                                  >
                                 {link.charAt(0).toUpperCase() + link.slice(1)}
                             </Link>
@@ -51,7 +50,6 @@ const Navbar = () => {
                                         href={`#${link}`}
                                         onClick={() => { setActiveLink(link); toggleMenu(); }}
                                         className={activeLink === link ? 'text-[#D38816]' : ''}
-                                        //className={`#${hashPath}` === `#${link}` ? 'text-[#D38816]' : ''}
                                     >
                                         {link.charAt(0).toUpperCase() + link.slice(1)}
                                     </Link>
