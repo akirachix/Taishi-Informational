@@ -40,7 +40,7 @@ const About: React.FC = () => {
   const [activeCard, setActiveCard] = useState<string | null>(null);
 
   return (
-    <div className="mx-[48px] py-14 md:py-18">
+    <div id='about' className="mx-[48px] py-14 md:py-18">
       <h1 className="text-3xl md:text-4xl lg:text-5xl nh:text-5xl font-bold text-center mx-auto mb-8 md:mb-12 font-josefin">
         About
       </h1>

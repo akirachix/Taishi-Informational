@@ -7,8 +7,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      screens: {
-      'nh': { 'raw': '(min-width: 1020px) and (max-width: 1024px), (min-width: 1280px) and (max-width: 1280px)' },
+      screens:{
+        ns:'1024px',
+        dt:'1300px',
+        sp: '280px',
+        nh: { 'raw': '(min-width: 1020px) and (max-width: 1024px), (min-width: 1280px) and (max-width: 1280px)' },
 
       },
       backgroundImage: {
