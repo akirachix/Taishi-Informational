@@ -4,6 +4,7 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
+feature/navbar-landingpage
     <footer id='contact' className="bg-black text-white py-8 px-5 font-josefin">
            <div className="container mx-[20px] flex flex-wrap justify-between items-start md:px-4">
     
