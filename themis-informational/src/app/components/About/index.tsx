@@ -36,7 +36,7 @@ const Card: React.FC<CardProps> = ({ title, imageSrc, children, isActive, onMous
   );
 };
 
-const AboutSection: React.FC = () => {
+const About: React.FC = () => {
   const [activeCard, setActiveCard] = useState<string | null>(null);
 
   return (
@@ -91,4 +91,4 @@ const AboutSection: React.FC = () => {
   );
 };
 
-export default AboutSection;
+export default About;
