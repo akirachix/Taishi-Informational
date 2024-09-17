@@ -7,7 +7,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      screens:{
+
+      screens: {
+        'is':{'max': '550', 'min':'700'},
         ns:'1024px',
         dt:'1300px',
         sp: '280px',
@@ -19,9 +21,14 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
-      fontFamily: {
-        josefin: ['"Josefin Sans"', 'sans-serif'],
+      colors: {
+        background: "var(--background)",
+        foreground: "var(--foreground)",
       },
+
+        fontFamily: {
+          josefin: ['"Josefin Sans"', 'sans-serif'],
+        }
     },
   },
   plugins: [],

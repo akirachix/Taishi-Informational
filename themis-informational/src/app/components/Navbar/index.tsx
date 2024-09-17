@@ -1,8 +1,7 @@
 
 'use client';
 import Link from "next/link";
-import { useState, useEffect } from "react";
-import { usePathname } from 'next/navigation';
+import { useState } from "react";;
 import { Josefin_Sans } from "next/font/google";
 import { FaBars, FaTimes } from 'react-icons/fa';
 import Image from "next/image";
@@ -15,17 +14,17 @@ const Navbar = () => {
         setIsOpen(!isOpen);
     };
     return (
-        <nav className="text-white bg-transparent mx-18 fixed top-0 left-0 w-full z-50 mx-[-30px]">
+        <nav className="text-white fixed top-0 left-0 w-full z-50 mx-[-30px] dt:mx-0 dt:bg-black ns:bg-black ns:mx-0">
             <div className="max-w-8xl mx-auto flex justify-between items-center py-6 px-4 ">
                 <div className={`${josefinSans.className} text-2xl font-bold`}>
-                    <Link href="#home">
-                        <Image src="/Images/Taishi-logo.png" alt="Taishi-logo" width={100} height={100}
-                        className="w-10 h-10  md:w-20 md:h-20 lg:w-20 lg:h-20 mx-[40px] sp:mx-[20px"/>
+                <Link href="#home">
+                        <Image src="/images/Taishi-logo.png" alt="Taishi-logo" width={100} height={100}
+                        className="w-10 h-10  md:w-20 md:h-20 lg:w-10 lg:h-10 mx-[40px] sp:mx-[20px] dt:w-12 dt:h-12 "/>
                     </Link>
                 </div>
                 <div className="lg:hidden">
                     <button onClick={toggleMenu}>
-                        {isOpen ? <FaTimes size={30} /> : <FaBars size={30} />}
+                        {isOpen ? <FaTimes size={30} /> : <FaBars size={30} className="fill-[#D38816]"/>}
                     </button>
                 </div>
                 <ul className="hidden lg:flex space-x-12">
