@@ -1,4 +1,6 @@
+
 "use client";
+
 
 import React, { useState, ReactNode } from 'react';
 
@@ -56,7 +58,7 @@ const About: React.FC = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 xl:gap-20 nh:gap-6">
         <Card 
           title="Mission" 
-          imageSrc="/images/mission.png"
+          imageSrc="images/mission.png"
           isActive={activeCard === 'mission'}
           onMouseEnter={() => setActiveCard('mission')}
           onMouseLeave={() => setActiveCard(null)}
@@ -67,7 +69,7 @@ const About: React.FC = () => {
         
         <Card 
           title="Vision" 
-          imageSrc="/images/vision.png"
+          imageSrc="images/vision.png"
           isActive={activeCard === 'vision'}
           onMouseEnter={() => setActiveCard('vision')}
           onMouseLeave={() => setActiveCard(null)}
@@ -79,7 +81,7 @@ const About: React.FC = () => {
         
         <Card 
           title="Values" 
-          imageSrc="/images/values.png"
+          imageSrc="images/values.png"
           isActive={activeCard === 'values'}
           onMouseEnter={() => setActiveCard('values')}
           onMouseLeave={() => setActiveCard(null)}
