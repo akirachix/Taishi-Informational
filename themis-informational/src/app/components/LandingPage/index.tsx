@@ -3,7 +3,7 @@ import Navbar from '../Navbar';
 const josefinSans = Josefin_Sans({ subsets: ['latin'] });
 const LandingPage = () => {
     return (
-        <div id='home' style={{ backgroundImage: 'url(/Images/Gavel-landing-page.jpg)', backgroundSize: 'cover', backgroundPosition: 'center', height: '100vh', position: 'relative' }}>
+        <div id='home' style={{ backgroundImage: 'url(/i mages/Gavel-landing-page.jpg)', backgroundSize: 'cover', backgroundPosition: 'center', height: '100vh', position: 'relative' }}>
             
             <div className="absolute inset-0 bg-black bg-opacity-50"></div>
             <Navbar />

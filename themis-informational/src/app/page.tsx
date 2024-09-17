@@ -1,7 +1,8 @@
 
 import About from './components/About/index'
-// import Footer from "./components/Footer";
+
 import LandingPage from "./components/LandingPage";
+import TeamSection from './components/Teams';
 
 export default function Home(){
   
@@ -9,6 +10,7 @@ export default function Home(){
     <main>
       <LandingPage/>
       <About/>
+      <TeamSection/>
     </main>
   )
 
